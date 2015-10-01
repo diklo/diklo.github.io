@@ -1,0 +1,24 @@
+.div{
+    float: right;
+}
+.huj{
+    color: orange;
+    text-align: right;
+}
+
+.cities {
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+} 
+
+.mop{
+    color: blue;
+    text-align: right;
+}
+
+.h1{
+    font: courier;
+    font-size: 20px;
+}
