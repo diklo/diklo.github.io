@@ -1,5 +1,6 @@
 body {
-    background-color: #aaf567;
+    background-color: #6ffff8;
+    margin-bottom: 120px
 }
 
 h1{
@@ -19,6 +20,7 @@ h2{
 }
 
 .container {
+  height:1250px;
   margin: 0 auto;
   padding-left: 70px;
   padding-right: 70px;
@@ -26,13 +28,14 @@ h2{
 }
 
 div {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
-
-div {
   border-radius: 15px;
+  border: 6px solid #949599;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .fixed {
@@ -41,8 +44,8 @@ div {
   right: 0;
   width: 120px;
   background-color: white
-  
-  .relative {
+}
+.relative {
   position: relative;
   height: 100px;
   float: left;
@@ -55,13 +58,6 @@ div {
   height: 200px;
 }
 
-nav {
-  /*position: absolute;*/
-  /*left: 0px;*/
-  /*top:0px;*/
-  float:left;
-  width: 200px;
-}
 
 section {
   /* position is static by default */
@@ -69,6 +65,7 @@ section {
   float: left;
   margin: 10 3.5%;
   width:200px;
+  column-count:3;
   /*width: 63%;*/
 }
 
@@ -82,21 +79,6 @@ footer {
   height: 70px;
   background-color: white;
   width: 100%;
-}
-body {
-  margin-bottom: 120px
-  
-div {
-  border: 6px solid #949599;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  width: 400px;
-}
-
-div {
-  background-color: #b2b2b2;
-  background-color: rgba(0, 0, 0, .3);
 }
 
 .btn {
@@ -113,4 +95,11 @@ div {
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
   float: left;
+}
+
+.wrapper {
+  height:150px;
+  width:150px;
+  float:left;
+  margin:20px;
 }
