@@ -45,11 +45,13 @@ div {
   width: 120px;
   background-color: white
 }
+
 .relative {
   position: relative;
   height: 100px;
   float: left;
 }
+
 .absolute {
   position: absolute;
   top: 120px;
@@ -72,6 +74,7 @@ section {
 aside {
   float: right;
 }
+
 footer {
   position: fixed;
   bottom: 0;
@@ -84,9 +87,11 @@ footer {
 .btn {
   font-size: 16px;
 }
+
 .btn-danger {
   background: red;
 }
+
 .btn-success {
   background: green;
 }
