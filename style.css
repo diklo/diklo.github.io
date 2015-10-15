@@ -1,112 +1,81 @@
-body {
-    background-color: #6ffff8;
-    margin-bottom: 120px
+body{
+    background-image: url("ScreenShot2.png");
+    background-color:#ff9087;
+    size:1000px,700px;
 }
 
-h1{
-    color: #c6c990;
-    font-size:34px;
-    font-family: courier;
-    background-color:green;
-    display: inline;
+.myDIV4 {
+    position:relative;
+    width:30px;
+    height:30px;
+    background-color:red;
+    left:0px;
+    top:200px;
 }
 
-h2{
-    color: #c6c574;
-    font-size:34px;
-    font-family: courier;
-    background-color:orange;
-    display: inline-block;
+.myDIV5 {
+    position:relative;
+    width:70px;
+    height:30px;
+    background:red;
+    left:200px;
+    top:300px;
+    animation-duration: 3s;
+  animation-name: slideon;
 }
 
-.container {
-  height:1250px;
-  margin: 0 auto;
-  padding-left: 70px;
-  padding-right: 70px;
-  /*width: 2060px;*/
+.myDIV6 {
+    position:relative;
+    width:50px;
+    height:30px;
+    background:red;
+    left:400px;
+    top:150px;
+     animation-duration: 3s;
+  animation-name: slidein;
 }
 
-div {
-  border-radius: 15px;
-  border: 6px solid #949599;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  width: 400px;
-  background-color: #b2b2b2;
-  background-color: rgba(0, 0, 0, .3);
+@-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:300%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
 }
 
-.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 120px;
-  background-color: white
+.myDIV7 {
+    position:absolute;
+    width:25px;
+    height:10px;
+    background:purple;
+    left:600px;
+    top:200px;
+    animation-duration: 6s;
+  animation-name: slidein;
 }
 
-.relative {
-  position: relative;
-  height: 100px;
-  float: left;
+.myDIV8 {
+    position:absolute;
+    width:30px;
+    height:15px;
+    background:red;
+    left:800px;
+    top:500px;
+    animation-duration: 3s;
+  animation-name: slideon;
 }
-
-.absolute {
-  position: absolute;
-  top: 120px;
-  right: 0;
-  width: 300px;
-  height: 200px;
-}
-
-
-section {
-  /* position is static by default */
-  margin-left: 200px;
-  float: left;
-  margin: 10 3.5%;
-  width:200px;
-  column-count:3;
-  /*width: 63%;*/
-}
-
-aside {
-  float: right;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  background-color: white;
-  width: 100%;
-}
-
-.btn {
-  font-size: 16px;
-}
-
-.btn-danger {
-  background: red;
-}
-
-.btn-success {
-  background: green;
-}
-
-.logo {
-  border-top: 4px solid #648880;
-  padding: 40px 0 22px 0;
-  float: left;
-}
-
-.wrapper {
-  width:150px;
-}
-
-iframe {
-  width: 50px;
-  float: left;
+@-webkit-keyframes slideon {
+      from {
+        margin-right:100%;
+        width:200%
+      }
+      
+      to {
+        margin-right:0%;
+        width:50%;
+      }
 }
