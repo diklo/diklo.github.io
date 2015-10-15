@@ -103,8 +103,10 @@ footer {
 }
 
 .wrapper {
-  height:150px;
   width:150px;
-  float:left;
-  margin:20px;
+}
+
+iframe {
+  width: 50px;
+  float: left;
 }
