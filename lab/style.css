@@ -1,0 +1,81 @@
+body{
+    background-image: url("ScreenShot2.png");
+    background-color:#ff9087;
+    size:1000px,700px;
+}
+
+.myDIV4 {
+    position:relative;
+    width:30px;
+    height:30px;
+    background-color:red;
+    left:0px;
+    top:200px;
+}
+
+.myDIV5 {
+    position:relative;
+    width:70px;
+    height:30px;
+    background:red;
+    left:200px;
+    top:300px;
+    animation-duration: 3s;
+  animation-name: slideon;
+}
+
+.myDIV6 {
+    position:relative;
+    width:50px;
+    height:30px;
+    background:red;
+    left:400px;
+    top:150px;
+     animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:300%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+}
+
+.myDIV7 {
+    position:absolute;
+    width:25px;
+    height:10px;
+    background:purple;
+    left:600px;
+    top:200px;
+    animation-duration: 6s;
+  animation-name: slidein;
+}
+
+.myDIV8 {
+    position:absolute;
+    width:30px;
+    height:15px;
+    background:red;
+    left:800px;
+    top:500px;
+    animation-duration: 3s;
+  animation-name: slideon;
+}
+@-webkit-keyframes slideon {
+      from {
+        margin-right:100%;
+        width:200%
+      }
+      
+      to {
+        margin-right:0%;
+        width:50%;
+      }
+}

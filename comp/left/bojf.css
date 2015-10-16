@@ -1,0 +1,148 @@
+.wrapper{
+    width:500px;
+    height:500px;
+}
+
+div.relative {
+    background-color: transparent;
+    margin:30px,100px;
+}
+
+.rcorners1 {
+    border-radius: 15px;
+    background: #7BEE99;
+    width: 200px;
+    height: 50px;
+    transition-timing-function: ease-in-out;
+
+}
+
+.rcorners1: hover {
+    width:300px;
+}
+
+.goo{
+    width:350px;
+    float:right;
+    margin:100px;
+    padding:10px;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+#aside{
+    float:right;
+     text-align:right;
+}
+
+#myDIV1 {
+    position:initial;
+    width:20px;
+    height:100px;
+    background:red;
+    left:10px;
+    top:100px;
+}
+
+#myDIV2 {
+    position:initial;
+    width:20px;
+    height:20px;
+    background:red;
+    left:60px;
+    top:60px;
+}
+
+#myDIV3 {
+    position:initial;
+    width:20px;
+    height:20px;
+    background:red;
+    left:100px;
+    top:100px;
+}
+
+#myDIV4 {
+    position:relative;
+    width:30px;
+    height:30px;
+    background:red;
+    left:20px;
+    top:90px;
+}
+
+#myDIV5 {
+    position:absolute;
+    width:70px;
+    height:30px;
+    background:red;
+    left:70px;
+    top:70px;
+}
+
+#myDIV6 {
+    position:initial;
+    width:250px;
+    height:250px;
+    background:red;
+    left:20px;
+    top:300px;
+}
+
+#myDIV7 {
+    position:fixed;
+    width:50px;
+    height:10px;
+    background:red;
+    left:50px;
+    top:80px;
+}
+
+#myDIV8 {
+    position:absolute;
+    width:50px;
+    height:15px;
+    background:red;
+    left:35px;
+    top:150px;
+}
+
+#myDIV9 {
+    position:relative;
+    width:15px;
+    height:35px;
+    background:red;
+    left:30px;
+    top:100px;
+}
+
+#myDIV10 {
+    position:initial;
+    width:20px;
+    height:30px;
+    background:red;
+    left:20px;
+    top:200px;
+}x6
