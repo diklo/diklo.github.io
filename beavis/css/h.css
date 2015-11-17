@@ -1,0 +1,114 @@
+body{
+    background-color:#ffcf89;
+}
+
+h1{
+     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+     font-size:20px;
+     font:Minion Pro;
+}
+
+p{
+    font-size:14px;
+     font:Minion Pro; 
+     color:blue;
+          text-shadow: 0 0 3px #FF00ff, 0 0 5px #0f00FF;
+
+}
+
+#header{
+    background-color:maroon;
+    size:auto;
+}
+
+#nav{
+    background-color: red;
+    float:left;
+     animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes exam {
+    from {background-color: blue;}
+    to {background-color: orange;}
+}
+#aside{
+    float:right;
+    animation-name: exam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#gag{
+     float:left;
+    padding:10px;
+    
+}
+
+#bag{
+     float:right;
+    padding:10px;
+    
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+.poke { 
+    width:200px;
+    position:absolute;
+    top:400px;
+    left:400px;
+    display:inline-block;
+}
+
+
+#god{
+    margin:200px;
+    position:relative;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+}
+
+
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
