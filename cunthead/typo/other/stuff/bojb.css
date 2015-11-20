@@ -1,0 +1,115 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+    margin:20px;
+
+
+}
+h1{
+  font-style:bold; 
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+p{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+#aside{
+    margin:20px;
+      padding:35px;	
+      float:right;
+      text-align:right;
+      font-style:bold;
+      background-color:maroon;
+      transition: width 300ms ease-in-out, height 300ms ease-in-out;
+
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+
+.svg{
+    display:inline;
+    position:absolute;
+    opacity: 0.5;
+
+}
+
+.after-svg{
+    clear:left;
+}
+
+.container{
+    margin:50px;
+    padding:20px;
+    size:auto;
+    background-color:#09f0ff;
+    opacity:0.75;
+    position:relative;
+    top:100px;
+}
+
+.iv:hover {
+    
+ width: 100px;
+    height: 300px;
+   
+}
+.iv{
+    width:1px;
+    height:85px;
+    background-color:maroon;
+    float:left;
+    padding:5px;
+    position:relative;
+    top:50px;
+    left:10px;
+    transition: width 1s, height 2s;
+}
+.tiv {
+   
+    transform: rotateZ(90deg); /* Standard syntax */
+}
+.liv {
+   
+    transform: rotateZ(45deg); /* Standard syntax */
+}
+.giv {
+   
+    transform: rotateZ(-45deg); /* Standard syntax */
+}
+
+.promo{
+    display:inline;
+    padding:20px;
+    background-color:olive;
+    transition: width 2s, height 2s, transform 2s
+}
+
+.promo:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+    background-color:olive;
+}
+
+.wrapper{
+    float:right;
+}
+

@@ -1,0 +1,264 @@
+body{
+    margin:60px;
+    padding:50px;
+    background-color:#000;
+    /*display:inline-block;*/
+    
+}
+
+/*--------------wrappers------------*/
+
+
+.aye-wrapper{ /*1*/
+    width:1px;
+    height:85px;
+    background-color:#ff908f;
+    position:absolute;
+    top:0px;
+    left:40px;
+    
+}
+
+.ye-wrapper{  /*2*/
+   
+    width:6px;
+    height:55px;
+    background-color:#0f900f;
+    position: absolute;
+    /*top:20px;*/
+    /*left:20px;*/
+}
+
+.bye-wrapper{  /*3*/
+    width:4px;
+    height:55px;
+    background-color:#047982;
+    position:absolute;
+    /*top:-40px;*/
+    /*left:147px;*/
+
+}
+
+.cye-wrapper{   /*4*/
+    width:3px;
+    height:55px;
+    background-color:#f5f670;
+    position:absolute;
+    /*top:-45px;*/
+    /*left:0px;*/
+    
+}
+
+.dye-wrapper{  /*5*/
+    width:2px;
+    height:55px;
+    background-color:#0090ff;
+    position:absolute;
+    /*top:-50px;*/
+    /*left:140px;*/
+    
+}
+
+.fye-wrapper{  /*5*/
+    width:6px;
+    height:55px;
+    background-color:#f99f30;
+    position:absolute;
+    /*top:-30px;*/
+    /*left:60px;*/
+    
+}
+
+/*--------------transformers------------*/
+
+.a {
+   
+    transform: rotateZ(90deg);
+   
+   /* Standard syntax */
+}
+.b {
+   
+    transform: rotateZ(45deg); /* Standard syntax */
+}
+.c {
+   
+    transform: rotateZ(-45deg); /* Standard syntax */
+}
+.d {
+   
+    transform: rotateZ(-90deg);
+   
+   /* Standard syntax */
+}
+
+.e {
+   
+    transform: rotateZ(-180deg);
+   
+   /* Standard syntax */
+}
+
+.f {
+   
+    transform: rotateZ(180deg);
+   
+   /* Standard syntax */
+}
+
+
+/*--------------spacing------------*/
+
+div{
+ float:left;
+    
+}
+
+.center {
+    
+    width: 0%;
+    border:none;
+    padding: 0px;
+}
+
+.space{
+    margin:40px;
+}
+
+/*--------------big wrappers------------*/
+
+
+.lil-wrapper{
+    position: relative;
+    margin:50px;
+    background-color:#f0143f;
+    width:100px;
+    height:100px;
+
+    
+}
+
+.til-wrapper{
+    margin:25px;
+    position: relative;
+    top:50px;
+    background-color:#f0f43f;
+    width:200px;
+    height:200px;
+
+    
+}
+
+.big-wrapper{ /*chunk*/
+    margin:300px;
+    width:200px;
+    height:500px;
+    position: relative;
+    top:0px;
+    left:0px;
+    background:#f309ff;
+    
+}
+
+.big2-wrapper{ /*chunk*/
+    margin:30px;
+    position: relative;
+     display:inline;
+    width:300px;
+    height:200px;
+    /*top:130px;*/
+    /*left:-105px;*/
+    /*clear:left;*/
+    background:#0ff90f;
+
+}
+
+.c-wrapper { /*platter*/
+   position: relative;
+   margin:600px;
+   background:#ff0;
+   /*top:-180px;*/
+   /*left:-185px;*/
+
+}
+
+.b-wrapper { /*platter*/
+   position: relative;
+   margin:20px;
+   background:#ff0f89;
+    width:200px;
+    height:200px;
+   /*top:-480px;*/
+   /*left:385px;*/
+
+}
+    
+.b-wrapper b-wrapper{ /*platter*/
+  width:250px;
+  height:150px;
+
+}
+
+.blk{
+    float:left;
+    clear:right;
+}
+
+/*--------------positioning (ID)------------*/
+
+
+.x {
+    top:-35px;
+    
+}
+
+.xt {
+    top:-30px;
+    
+}
+
+
+.xx {
+    top:55px;
+    
+}
+
+.x2x {
+    top:55px;
+    
+}
+
+
+.xc {
+    top:-10px;
+    left:25px;
+}
+
+.xxx {
+    top:-50px;
+    left:-50px;
+}
+
+.xxxx {
+    top:90px;
+    left:80px;
+}
+
+.x4{
+    top:80px;
+    left:140px;
+}
+
+.x44{
+    top:480px;
+    left:140px;
+}
+.x5{
+    top:-80px;
+    left:140px;
+}
+
+.x6{
+    top:-180px;
+    left:140px;
+}

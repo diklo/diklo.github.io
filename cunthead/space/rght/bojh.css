@@ -1,0 +1,58 @@
+div.relative {
+    background-color: transparent;
+    margin:30px,100px;
+}
+
+.rcorners1 {
+    border-radius: 15px;
+    background: #7BEE99;
+    width: 200px;
+    height: 50px;
+    transition-timing-function: ease-in-out;
+
+}
+
+.rcorners1: hover {
+    width:300px;
+}
+
+.goo{
+    width:350px;
+    float:right;
+    margin:100px;
+    padding:10px;
+}
+
+.boo{
+   border: 1px solid red;
+    clear: left;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+#aside{
+    float:right;
+     text-align:right;
+}
