@@ -1,3 +1,29 @@
-body{
-    size:auto;
+.link {
+    width: 25%;
+    height: 100%;
+}
+
+.thing{
+    display: inline-block;
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    overflow:hidden;
+    background-color:white;
+    text-align: center;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+#buttonDIV {
+	width: 50px;
+	height: 50px;
+	background: maroon;
+	-webkit-border-radius: 50px;
+	
+
 }
