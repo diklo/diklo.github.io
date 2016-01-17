@@ -1,0 +1,71 @@
+
+h1{
+    position:relative;
+    text-align:center;
+}
+
+p{
+    position:relative;
+    text-align:center;
+}
+
+.d{
+    float:left;
+    position:relative;
+}
+/*absolute*/
+.ddd{
+    position:absolute;
+    top:150px;
+    left:500px;
+}
+
+.dd{
+    position:absolute;
+    top:100px;
+    right:50px;
+}
+
+.d3{
+    position:absolute;
+    top:250px;
+    left:500px;
+}
+
+.e{
+    position:absolute;
+    text-align:center;
+    top:400px;
+    left:500px;
+}
+
+.ee{
+    position:relative;
+    text-align:center;
+}
+
+iframe{
+    border-radius:75%;
+    margin:25px;
+    position:relative;
+}
+
+.k{
+    height:400px;
+}
+
+.f{
+    size:25%
+}
+
+/*position*/
+
+.hu{
+    position:relative;
+    top:50px;
+}
+
+.h{
+    position:relative;
+    top:70px;
+}
